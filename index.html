@@ -5,28 +5,118 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Juanita's Kitchen</title>
-    <link rel="stylesheet" href="main.css">
     <link href="https://fonts.googleapis.com/css?family=Fira+Sans+Extra+Condensed|Lobster|Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/fbd6e0d4a5.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="stylesheet" href="main.css">
+
 </head>
 <body>
-   <nav>
-       <ul>
-           <li><a href="index.html">Home</a></li>
-           <li><a href="menu.html">Menu</a></li>
-           <li><a href="recipes.html">Recipes</a></li>
-           <li><a href="ingredients.html">Ingredients</a></li>
-           <li><a href="video.html">Video</a></li>
-           <li><a href="contact.html">Contact Us</a></li>
-       </ul>
-   </nav>
+       <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">Juanita's Kitchen</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="menu.html">Menu</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="recipes.html">Recipes</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="ingredients.html">Ingredients</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="video.html">Video Tutorials</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact Us</a>
+            </li>
+  
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
    <header>
        <div class="banner">
            <h1>Juanita's Kitchen</h1>
            <p class="description">Mexican Cuisine</p>
        </div>
    </header>
-   <p>Random content to see the text style.</p>
-   <!--You can do book recommendations, a picture of the featured recipe of the week, fun fact about
-some sort of food, talk about keto alternatives maybe?-->
+  <br>
+<div class="card-columns">
+    <div class="card">
+      <img src="images/ketotaco.jfif" class="card-img-top" alt="Flier that says, how to order keto food at Mexican restaurants">
+      <div class="card-body">
+        <h5 class="card-title">Keto Mexican Food</h5>
+        <p class="card-text">Everything from what to avoid to what you should eat extra of! We recommend going to <a href="https://www.ibreatheimhungry.com/15-best-low-carb-mexican-recipes/">I Breath I'm Hungry</a>, they're a great source for enjoying Mexican food while you're on keto!</p>
+      </div>
+    </div>
+    <div class="card p-3">
+      <blockquote class="blockquote mb-0 card-body">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+        <footer class="blockquote-footer">
+          <small class="text-muted">
+            Someone famous in <cite title="Source Title">Source Title</cite>
+          </small>
+        </footer>
+      </blockquote>
+    </div>
+    <div class="card">
+      <img src="images/chilesrellenos.jpg" class="card-img-top" alt="A bowl of chiles rellenos inside a tomato broth">
+      <div class="card-body">
+        <h5 class="card-title">Recipe of the Week!</h5>
+        <p class="card-text">This week we have a great recipe for Chiles Rellenos to share with you!</p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+    <div class="card bg-primary text-white text-center p-3">
+      <blockquote class="blockquote mb-0">
+        <p>“...no one is born a great cook, one learns by doing.”</p>
+        <footer class="blockquote-footer text-white">
+          <small>
+            Julia Child,<cite title="Source Title"> <a href="https://www.goodreads.com/book/show/5084.My_Life_in_France">My Life in France</a></cite>
+          </small>
+        </footer>
+      </blockquote>
+    </div>
+    <div class="card text-center">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This card has a regular title and short paragraphy of text below it.</p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="images/salsa.jpg" class="card-img-top" alt="An array of different kinds of salsas">
+    </div>
+    <div class="card p-3 text-right">
+      <blockquote class="blockquote mb-0">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+        <footer class="blockquote-footer">
+          <small class="text-muted">
+            Someone famous in <cite title="Source Title">Source Title</cite>
+          </small>
+        </footer>
+      </blockquote>
+    </div>
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is another card with title and supporting text below. This card has some additional content to make it slightly taller overall.</p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
