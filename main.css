@@ -19,6 +19,11 @@ body {
     height: 300px;
 }
 
+.cover {
+    max-width:2500px;
+    max-height:1000px;
+}
+
 .description {
     font-family: 'Fira Sans Extra Condensed', sans-serif;
     text-align: center;
