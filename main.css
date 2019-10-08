@@ -60,3 +60,10 @@ li a:hover {
       column-count: 5;
     }
   }
+.comments {
+    max-width:96%;
+    height:150px;
+    padding:2%;
+    font-size:1.2em;
+    background-image:url('images/prefbanner.jpg');
+}
