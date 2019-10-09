@@ -13,15 +13,13 @@ body {
     background-color: white;
     color: black;
 }
-.banner {
-    background-image: url(images/darkbanner.jpg);
-    background-position: center;
-    height: 300px;
+
+.card img{
+    
 }
 
 .cover {
-    max-width:2500px;
-    max-height:1000px;
+    background-size: cover;
 }
 
 .description {
@@ -29,6 +27,7 @@ body {
     text-align: center;
     color: white;
 }
+
 div h1 {
     font-family: 'Lobster', cursive;
     text-align: center;
@@ -38,6 +37,12 @@ div h1 {
     text-shadow: 4px 4px 3px grey;
 
 }
+
+.copyright {
+    color: lightgray;
+    font-size: 9px;
+}
+
 li a {
     color: black;
     font-weight: bold;
@@ -48,22 +53,13 @@ li a {
 li a:hover {
     background-color: #74D9FF;
 }
-.card-img-top {
-    max-width: 600px;
-    max-height: 800px;
+
+.pageHead {
+
 }
-.card-columns {
-    @include media-breakpoint-only(lg) {
-      column-count: 4;
-    }
-    @include media-breakpoint-only(xl) {
-      column-count: 5;
-    }
-  }
-.comments {
-    max-width:96%;
-    height:150px;
-    padding:2%;
-    font-size:1.2em;
-    background-image:url('images/prefbanner.jpg');
+
+.subheading {
+    font-size: 20px;
+    color: white;
+    text-align: center;
 }
