@@ -23,6 +23,14 @@ body {
     background-image: url(images/blue.jpg);
 }
 
+.btn-danger {
+    margin-left: 115px;
+}
+
+.btn-dark {
+    margin-left: 75px;
+}
+
 #black {
     background-image: url(images/video.jpg);
 }
@@ -48,7 +56,7 @@ div h1 {
     color: white;
     font-size: 80px;
     padding-top: 60px;
-    text-shadow: 4px 4px 3px grey;
+    text-shadow: 4px 4px 3px #FF002C;
 
 }
 
