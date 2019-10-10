@@ -7,6 +7,11 @@ font-family: 'Montserrat', sans-serif;
 font-family: 'Lobster', cursive;
 font-family: 'Fira Sans Extra Condensed', sans-serif; 
 */
+.about {
+    color: white;
+    text-align: center;
+}
+
 body {
     font-size: 16px;
     font-family: 'Montserrat', sans-serif;
@@ -16,6 +21,10 @@ body {
 
 #blue {
     background-image: url(images/blue.jpg);
+}
+
+#black {
+    background-image: url(images/video.jpg);
 }
 
 .card-title {
@@ -61,6 +70,12 @@ div h1 {
     background-image: url(images/green.jpg);
 }
 
+.gracious {
+    text-align: center;
+    padding-top: 200px;
+    font-size: 48px;
+}
+
 .home {
     background-image: url(images/banner.jpg);
     background-position: top;
@@ -93,10 +108,16 @@ li a:hover {
 
 .pageHead {
     color: white;
+    font-weight: bolder;
 }
 
 #pink {
     background-image: url(images/pink.jpg);
+}
+
+.recipeOfTheWeek {
+    float: right;
+    width: 600px;
 }
 
 .steps {
@@ -113,4 +134,8 @@ li a:hover {
 textarea {
     height: 200px;
     width: 500px;
+}
+
+.thanks {
+    background-image: url(images/thankyou.jpg)
 }
