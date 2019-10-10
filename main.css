@@ -14,6 +14,10 @@ body {
     color: black;
 }
 
+#blue {
+    background-image: url(images/blue.jpg);
+}
+
 .card-title {
     font-weight: bolder;
     text-decoration: underline;
@@ -44,6 +48,29 @@ div h1 {
     font-size: 9px;
 }
 
+#contact {
+    background-image: url(images/contact.jpg);
+}
+
+#contact-box {
+    text-align: center;
+    padding-top: 150px;
+}
+
+#green {
+    background-image: url(images/green.jpg);
+}
+
+.home {
+    background-image: url(images/banner.jpg);
+    background-position: top;
+}
+
+html {
+    padding: 50px 50px 50px 50px;
+
+}
+
 .ingredients {
     font-weight: bold;
     text-decoration: underline;
@@ -60,8 +87,16 @@ li a:hover {
     background-color: #74D9FF;
 }
 
-.pageHead {
+.pageDescription {
+    color: white;
+}
 
+.pageHead {
+    color: white;
+}
+
+#pink {
+    background-image: url(images/pink.jpg);
 }
 
 .steps {
@@ -73,4 +108,9 @@ li a:hover {
     font-size: 20px;
     color: white;
     text-align: center;
+}
+
+textarea {
+    height: 200px;
+    width: 500px;
 }
